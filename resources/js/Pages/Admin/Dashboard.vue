@@ -57,7 +57,9 @@
 </template>
 
 <script>
-import Layout from "../../Admin/Layout.vue";
+import Layout from '../../Admin/Layout.vue';
+
+
 export default {
     name: "Dashboard",
     layout: Layout

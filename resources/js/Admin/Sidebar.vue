@@ -13,7 +13,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <Link href="/slider-show" class="nav-link">
+                        <Link href="#" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Slider
@@ -22,7 +22,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <Link href="/brand-show" class="nav-link">
+                        <Link href="#" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Brand
@@ -31,7 +31,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <Link href="/category-show" class="nav-link">
+                        <Link href="#" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Category
@@ -41,7 +41,7 @@
 
 
                     <li class="nav-item">
-                        <Link href="/product-show" class="nav-link">
+                        <Link href="#" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Product

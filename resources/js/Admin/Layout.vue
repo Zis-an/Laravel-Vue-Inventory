@@ -8,9 +8,9 @@
     <body class="hold-transition sidebar-mini layout-fixed">
 
         <div class="wrapper">
-            <AdminNavbar />
+            <Navbar />
             <div class="content-wrapper">
-                <AdminSidebar />
+                <Sidebar />
                 <section class="content">
                     <slot />
                 </section>
@@ -20,12 +20,15 @@
 </template>
 
 <script>
-import Sidebar from "./Sidebar.vue";
-import Navbar from "./Navbar.vue";
+import Sidebar from './Sidebar.vue';
+import Navbar from './Navbar.vue';
+
+
+
 
 export default {
     name: "Layout",
-    components: { Navbar, Sidebar }
+    components: { Navbar,Sidebar }
 }
 </script>
 

@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
-    return inertia('Dashboard');
+    return inertia('Admin/Dashboard');
 });
