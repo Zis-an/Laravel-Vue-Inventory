@@ -1,5 +1,5 @@
 <template>
-    <h1>Shahriar bhai kharap lok</h1>
+    <h1>Hello World</h1>
 </template>
 
 <script>
