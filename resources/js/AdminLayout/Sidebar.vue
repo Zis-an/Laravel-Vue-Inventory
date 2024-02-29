@@ -13,11 +13,9 @@
                     </li>
 
                     <li class="nav-item">
-                        <Link href="#" class="nav-link">
+                        <Link href="/slider" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
-                        <p>
-                            Slider
-                        </p>
+                        <p>Slider</p>
                         </Link>
                     </li>
 

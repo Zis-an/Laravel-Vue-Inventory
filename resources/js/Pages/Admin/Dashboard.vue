@@ -57,7 +57,7 @@
 </template>
 
 <script>
-import Layout from '../../Admin/Layout.vue';
+import Layout from '../../AdminLayout/Layout.vue';
 
 
 export default {
