@@ -9,6 +9,6 @@ use App\Http\Controllers\Controller;
 class DashboardController extends Controller
 {
     public function dashboard() {
-        return Inertia::render('Dashboard');
+        return Inertia::render('Admin/Dashboard');
     }
 }

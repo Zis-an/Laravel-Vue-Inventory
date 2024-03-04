@@ -10,7 +10,6 @@ use App\Http\Controllers\Controller;
 class SliderController extends Controller
 {
     public function index() {
-        dd('te');
         return Inertia::render('Admin/Slider/Index');
     }
 

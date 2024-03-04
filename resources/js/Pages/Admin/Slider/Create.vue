@@ -1,18 +1,12 @@
 <template>
     <div class="main-panel">
-            <div class="content-wrapper">
+            <div class="mx-3">
                 <div class="page-header">
-                    <h3 class="page-title">
-                        <span class="page-title-icon bg-gradient-primary text-white me-2">
-                            <i class="mdi mdi-home"></i>
-                        </span>
-                        Dashboard
-                    </h3>
+                    <h3 class="page-title">Slider</h3>
                     <nav aria-label="breadcrumb">
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item active" aria-current="page">
-                                <span></span>Slider/Create
-                                <i class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"></i>
+                                <span>Dashboard/Slider/Add Slider</span>
                             </li>
                         </ul>
                     </nav>
@@ -34,8 +28,8 @@
                                                 {{ form.progress.percentage }}%
                                             </progress>
                                     </div>
-                                    <button type="submit" :disabled="form.processing" class="btn btn-gradient-primary me-2">Submit</button>
-                                    <inertia-link href="/slider" class="btn btn-light">Back</inertia-link>
+                                    <button type="submit" :disabled="form.processing" class="btn btn-success me-2 mr-2">Submit</button>
+                                    <Link href="/slider" class="btn btn-secondary">Back</Link>
                                 </form>
                             </div>
                         </div>
@@ -49,10 +43,12 @@
 <script>
 
 import Layout from '../../../AdminLayout/Layout.vue';
-
+import { Link } from '@inertiajs/vue3';
 export default {
-
     layout: Layout,
+    components: {
+        Link
+    },
     data() {
         return {
             form: this.$inertia.form({
