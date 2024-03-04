@@ -17,6 +17,8 @@ use App\Http\Controllers\Admin\DashboardController;
 
 Route::redirect('/', '/dashboard');
 Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard.index');
+
+// Slider
 Route::get('/slider', [SliderController::class, 'index'])->name('slider.index');
 Route::get('/slider/create', [SliderController::class, 'create'])->name('slider.create');
-Route::get('/slider/store', [SliderController::class, 'store'])->name('slider.store');
+Route::post('/slider/store', [SliderController::class, 'store'])->name('slider.store');

@@ -14,7 +14,7 @@
 
             <div class="card">
                 <div class="card-body">
-                    <Link href="/slider/create" class="btn btn-success mb-4" as="button" type="button">Create</Link>
+                    <Link href="/slider/create" class="btn btn-success mb-4">Create</Link>
                     <table class="table table-bordered">
                         <thead>
                             <tr>

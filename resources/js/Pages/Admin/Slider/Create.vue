@@ -59,6 +59,8 @@ export default {
     },
     methods: {
         submit() {
+
+            console.log('chop');
             this.form.post("/slider/store");
         },
     },
